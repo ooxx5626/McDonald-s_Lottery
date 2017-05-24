@@ -1,7 +1,7 @@
 var request = require('request');
 var fs = require('fs');
 const TelegramBot = require('node-telegram-bot-api');
-var tokens = JSON.parse(fs.readFileSync('YOURMCDtoken.json','utf8').toString())
+var tokens = JSON.parse(fs.readFileSync('YOUR MCD TOKEN.json','utf8').toString())
 options={}
 const bot = new TelegramBot('YOUR BOT TOKEN', {polling: true});
 async function start(){
@@ -30,7 +30,7 @@ async function start(){
                     var object = JSON.stringify(body)
                     var sendtoken = options[token].json.access_token
                     console.log(`${sendtoken}:${object}`)
-                    bot.sendMessage(YOUR_MSG, `${sendtoken}:${object}`).then(()=>{ 
+                    bot.sendMessage(YOUR CHAT ID, `${sendtoken}:${object}`).then(()=>{ 
                             resolve()
                     })
                 }

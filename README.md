@@ -1,12 +1,12 @@
 McDonald-s_Lottery
 ===
-Draw to daily lottery of McDonald's app and notice with Telegram.
-If want to draw auto
-
+Draw lottery of McDonald's app daily and notice with Telegram.
+If want to draw automatically you can plus it in crontab
+![YA](https://raw.githubusercontent.com/ooxx5626/McDonald-s_Lottery/master/picture.png)
 
 What do I need?
 ----
-- a [Telegram Bot](https://telegram.org/blog/bot-revolution) and get **BOT TOKEN** and **Chat ID**
+- A [Telegram Bot](https://telegram.org/blog/bot-revolution), get **BOT TOKEN** and **Chat ID**
 - token that personal account of McDonald
 - Node.js
 
